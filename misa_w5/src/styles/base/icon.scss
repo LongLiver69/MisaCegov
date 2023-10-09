@@ -1,0 +1,15 @@
+.icon24 {
+  display: inline-block;
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.icon24::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url(@/assets/img/sprites.svg);
+}

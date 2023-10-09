@@ -1,0 +1,11 @@
+.main-content {
+  padding-left: 204px;
+  height: 100%;
+  transition: padding 0.2s;
+  background-color: #f4f5f8;
+  box-shadow: inset 0 1.5px 2px 0 rgba(0, 0, 0, 0.1);
+
+  &.zoom-in {
+    padding-left: 56px;
+  }
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISA.WEB05.CEGOV", "MISA.WEB05.CEGOV\MISA.WEB05.CEGOV.csproj", "{14422841-5417-45A6-82CE-E5E04BC76DE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISA.WEB05.CEGOV.Application", "MISA.WEB05.CEGOV.Application\MISA.WEB05.CEGOV.Application.csproj", "{25ED1E46-7EB6-469E-9B92-D070CAB3B932}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISA.WEB05.CEGOV.Domain", "MISA.WEB05.CEGOV.Domain\MISA.WEB05.CEGOV.Domain.csproj", "{0B0DC9EB-9445-4448-B6DD-49801CF9697D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISA.WEB05.CEGOV.Infrastructure", "MISA.WEB05.CEGOV.Infrastructure\MISA.WEB05.CEGOV.Infrastructure.csproj", "{97D3B7C1-0132-423A-8257-BA62EA3019D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISA.WEB05.CEGOV.Domain.Tests", "MISA.WEB05.CEGOV.Domain.Tests\MISA.WEB05.CEGOV.Domain.Tests.csproj", "{E08E2C87-E5C4-4F8E-9E4C-1C24B070D876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISA.WEB05.CEGOV.Application.Tests", "MISA.WEB05.CEGOV.Application.Tests\MISA.WEB05.CEGOV.Application.Tests.csproj", "{16B38425-E921-4998-8504-CBB81527D794}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14422841-5417-45A6-82CE-E5E04BC76DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14422841-5417-45A6-82CE-E5E04BC76DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14422841-5417-45A6-82CE-E5E04BC76DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14422841-5417-45A6-82CE-E5E04BC76DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25ED1E46-7EB6-469E-9B92-D070CAB3B932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25ED1E46-7EB6-469E-9B92-D070CAB3B932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25ED1E46-7EB6-469E-9B92-D070CAB3B932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25ED1E46-7EB6-469E-9B92-D070CAB3B932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B0DC9EB-9445-4448-B6DD-49801CF9697D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B0DC9EB-9445-4448-B6DD-49801CF9697D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B0DC9EB-9445-4448-B6DD-49801CF9697D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B0DC9EB-9445-4448-B6DD-49801CF9697D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D3B7C1-0132-423A-8257-BA62EA3019D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D3B7C1-0132-423A-8257-BA62EA3019D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D3B7C1-0132-423A-8257-BA62EA3019D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D3B7C1-0132-423A-8257-BA62EA3019D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E08E2C87-E5C4-4F8E-9E4C-1C24B070D876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08E2C87-E5C4-4F8E-9E4C-1C24B070D876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08E2C87-E5C4-4F8E-9E4C-1C24B070D876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08E2C87-E5C4-4F8E-9E4C-1C24B070D876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B38425-E921-4998-8504-CBB81527D794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B38425-E921-4998-8504-CBB81527D794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B38425-E921-4998-8504-CBB81527D794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B38425-E921-4998-8504-CBB81527D794}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98962B3C-8235-4C7F-B36C-5CFC39DE67A3}
+	EndGlobalSection
+EndGlobal

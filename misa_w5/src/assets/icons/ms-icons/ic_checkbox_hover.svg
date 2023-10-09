@@ -1,0 +1,9 @@
+<svg id="Group_55187" data-name="Group 55187" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_18390" data-name="Rectangle 18390" width="24" height="24" fill="none"/>
+  <g id="Rectangle_24311" data-name="Rectangle 24311" transform="translate(4 4)" fill="none" stroke="#1a73e8" stroke-linecap="round" stroke-width="1.6">
+    <rect width="16" height="16" rx="2" stroke="none"/>
+    <rect x="0.8" y="0.8" width="14.4" height="14.4" rx="1.2" fill="none"/>
+  </g>
+  <rect id="Rectangle_24313" data-name="Rectangle 24313" width="24" height="24" rx="4" fill="#dceafc"/>
+  <path id="Rectangle_24311_-_Outline" data-name="Rectangle 24311 - Outline" d="M2,1.6a.4.4,0,0,0-.4.4V14a.4.4,0,0,0,.4.4H14a.4.4,0,0,0,.4-.4V2a.4.4,0,0,0-.4-.4H2M2,0H14a2,2,0,0,1,2,2V14a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(4 4)" fill="#1a73e8"/>
+</svg>

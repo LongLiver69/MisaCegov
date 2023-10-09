@@ -1,0 +1,90 @@
+.toast-block {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+}
+
+.toast + .toast {
+  margin-top: 10px;
+}
+
+.toast {
+  width: 450px;
+  height: 56px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Animation*/
+.toast.show {
+  opacity: 1;
+  animation: slidein 5s, fadeout 5s 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.toast__icon{
+  position: absolute;
+  left: 18px;
+  color: var(--color-success);
+}
+
+.toast__title{
+  position: absolute;
+  left: 48px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-success);
+}
+
+.toast__title::after {
+  content: " Công việc đã bị xóa";
+  color: #1F1F1F;
+  font-weight: 300;
+}
+
+.toast__action{
+  position: absolute;
+  font-size: 14px;
+  font-weight: 500;
+  right: 48px;
+  padding: 0;
+  text-decoration:underline;
+  border: none;
+  background-color: #fff;
+}
+
+.toast__action:hover,
+.toast__icon--close:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.toast__icon--close {
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  opacity: 0.5;
+  right: 16px;
+}

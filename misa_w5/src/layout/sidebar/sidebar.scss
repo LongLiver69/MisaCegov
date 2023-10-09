@@ -1,0 +1,79 @@
+.sidebar {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  width: 204px;
+  min-width: 204px;
+  height: calc(100% - 56px);
+  background-color: #fff;
+  box-shadow: inset 0 1.5px 2px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  transition: width 0.2s;
+
+  &.zoom-out {
+    width: 56px;
+    min-width: 56px;
+  }
+
+  & .menu-line {
+    width: calc(100% - 28px);
+    border-top: 2px solid #ddd;
+    margin: 0 14px;
+  }
+}
+
+.sidebar__top {
+  width: 100%;
+  flex: 1;
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 8px;
+  overflow-y: overlay;
+}
+
+.sidebar__bottom {
+  height: 40px;
+  margin: 0 8px 16px 8px;
+  background-color: #edf1f5;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #edf1f5;
+  }
+
+  & .sidebar-bottom__icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 0 8px;
+    transition: transform 0.4s;
+
+    &::before {
+      background-image: url("@/assets/img/sprites2.svg");
+      background-position: -197px -6px;
+      position: absolute;
+      top: 6px;
+      left: 5.5px;
+      width: 13px;
+      height: 12px;
+    }
+  }
+
+  & .sidebar-bottom__text {
+    flex: 1;
+    font-weight: 500;
+  }
+}
+
+.sidebar.zoom-out .sidebar-bottom__icon {
+  transform: rotate(180deg);
+}

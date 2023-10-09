@@ -1,0 +1,56 @@
+@import url("@/styles/variables.scss");
+@import url("@/styles/base/icon.scss");
+@import url("@/styles/base/toast.scss");
+
+@font-face {
+  font-family: GoogleSans;
+  src: url(@/assets/font/GoogleSans/GoogleSans-Regular.cegov.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: GoogleSans;
+  src: url(@/assets/font/GoogleSans/GoogleSans-Medium.cegov.woff2);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: GoogleSans;
+  src: url(@/assets/font/GoogleSans/GoogleSans-Bold.cegov.woff2);
+  font-weight: 700;
+}
+
+* {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: GoogleSans, sans-serif;
+  box-sizing: border-box;
+}
+
+html *::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #cdd3d6;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .2);
+
+  &:hover {
+    background: #9e9e9e;
+  }
+}
+
+html *::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(239, 239, 244, 1);
+  background-color: #ececec;
+}
+
+body {
+  margin: 0;
+}
+
+strong {
+  font-weight: bold;
+}
