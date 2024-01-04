@@ -8,6 +8,8 @@ namespace MISA.WEB05.CEGOV.Application
     {
         #region Fields
         private readonly IAwardRepository _awardRepository;
+
+
         private readonly IAwardManager _awardManager;
         private readonly IExcelWorker _excelWorker;
         #endregion
